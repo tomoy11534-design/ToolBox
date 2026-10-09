@@ -191,6 +191,8 @@ localStorageに保存する。読み込み・書き込みは `try/catch` で囲�
 | `npm run build` | 型チェック後、`dist/` に本番ビルドを出力（型エラーがあれば失敗） |
 | `npm run preview` | ビルド結果の確認 |
 
+**公開**: Vercel（https://tool-box-ebon.vercel.app/）。GitHub（`tomoy11534-design/ToolBox`）の `main` へ push すると自動でビルド・デプロイされる。
+
 **アプリを追加する手順**: `src/app.vue` の `apps` 配列に1件追加する。CSS変更は不要。
 
 ## 9. 制約・今後の拡張案
